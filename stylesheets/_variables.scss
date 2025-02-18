@@ -1,0 +1,55 @@
+
+// Light mode
+$light-primary-color: #f4f3ee;
+$light-secondary-color: #463f3a;
+$light-accent-color: #b4a8a1;
+$light-button-color: #e0afa0;
+
+// Black and white
+$blacc-color: #121212;
+$white-color: #e9ecef;
+
+
+// Dark mode
+$dark-primary-color: #463f3a;
+$dark-secondary-color: #f4f3ee;
+$dark-accent-color: #bcb8b1;
+$dark-button-color: #e0afa0;
+
+
+:root {
+  /* Light mode */
+  --light-primary-color: #f4f3ee;
+  --light-secondary-color: #463f3a;
+  --light-accent-color: #b4a8a1;
+  --light-button-color: #e0afa0;
+
+  /* Black and White */
+  --blacc-color: #121212;
+  --white-color: #e9ecef;
+
+  /* Dark mode */
+  --dark-primary-color: #463f3a;
+  --dark-secondary-color: #f4f3ee;
+  --dark-accent-color: #bcb8b1;
+  --dark-button-color: #e0afa0;
+}
+body {
+  will-change: background-color, color;
+}
+// Dark Versions
+* {
+    transition: background-color 0.5s ease, color 0.5s ease;
+  
+    &.dark-mode {
+      transition: background-color 0.5s ease, color 0.5s ease;
+      background-color: $dark-primary-color;
+      color: $dark-secondary-color;
+    }
+  }
+
+
+
+
+
+
