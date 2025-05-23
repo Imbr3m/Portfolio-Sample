@@ -723,7 +723,7 @@ document.querySelector("#p4").addEventListener("click", function() {
   window.location.href = "https://github.com/Imbr3m/CODELAB-2--A2.git";
 });
 document.querySelector("#p5").addEventListener("click", function() {
-  window.location.href = "https://imbr3m.github.io/Responsive_2/";
+  window.location.href = "https://imbr3m.github.io/Anak/";
 });
 
 // CARD HOVER ANIMATION

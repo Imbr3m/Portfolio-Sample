@@ -181,6 +181,7 @@ header .hero-image .wrapper-img .box {
   z-index: 2;
 }
 header .hero-image .wrapper-img .box .image {
+  opacity: 60%;
   width: 100%;
   height: 100%;
 }
